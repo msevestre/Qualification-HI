@@ -1,0 +1,3347 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C19",
+      "Category": "CPA",
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.2432,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00014961101137
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0003526545268
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00015816021202
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00040608703086
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2C19"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C19",
+      "Category": "CPB",
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.1976,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00014961101137
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0003526545268
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00015816021202
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00040608703086
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2C19"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C19",
+      "Category": "CPC",
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.0912,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2C19"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPA",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPB",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPC",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 2.0
+          }
+        ]
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Andersson1993_CPA",
+      "Seed": 1193983406,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 60.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 74.74,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 174.0,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP2C19|Human|CPA",
+        "CYP3A4|Human|CPA"
+      ]
+    },
+    {
+      "Name": "Andersson1993_CPB",
+      "Seed": 1194028687,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 60.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 74.45,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 174.0,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP2C19|Human|CPB",
+        "CYP3A4|Human|CPB"
+      ]
+    },
+    {
+      "Name": "Rinetti1991_CPA",
+      "Seed": 1194237203,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 51.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 71.21,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 168.88,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP2C19|Human|CPA",
+        "CYP3A4|Human|CPA"
+      ]
+    },
+    {
+      "Name": "Rinetti1991_CPB",
+      "Seed": 1194275828,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 51.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 71.21,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 168.88,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP2C19|Human|CPB",
+        "CYP3A4|Human|CPB"
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Andersson1993_CPA_Population",
+      "Seed": 1194383406,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 40,
+        "Age": {
+          "Min": 40.0,
+          "Max": 80.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 56.0,
+          "Max": 119.0,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Andersson1993_CPA",
+          "Seed": 1193983406,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 60.5,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 74.74,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 174.0,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 0.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP2C19|Human|CPA",
+            "CYP3A4|Human|CPA"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP2C19|Reference concentration",
+          "Seed": 1194389046,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.2432,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C19|t1/2 (liver)",
+          "Seed": 1194389062,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1560.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1194389078,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1194389078,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1194389078,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Andersson1993_CPB_Population",
+      "Seed": 1194427593,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 40,
+        "Age": {
+          "Min": 40.0,
+          "Max": 80.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 56.0,
+          "Max": 119.0,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Andersson1993_CPB",
+          "Seed": 1194028687,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 60.5,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 74.45,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 174.0,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 1.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP2C19|Human|CPB",
+            "CYP3A4|Human|CPB"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP2C19|Reference concentration",
+          "Seed": 1194433390,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.1976,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C19|t1/2 (liver)",
+          "Seed": 1194433390,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1560.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1194433406,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.728,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1194433406,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1194433406,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Rinetti1991_CPA_Population",
+      "Seed": 1194672265,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 25,
+        "Age": {
+          "Min": 29.0,
+          "Max": 64.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 52.0,
+          "Max": 93.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 160.0,
+          "Max": 178.0,
+          "Unit": "cm"
+        },
+        "Individual": {
+          "Name": "Rinetti1991_CPA",
+          "Seed": 1194237203,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 51.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 71.21,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 168.88,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 0.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP2C19|Human|CPA",
+            "CYP3A4|Human|CPA"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP2C19|Reference concentration",
+          "Seed": 1194678234,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.2432,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C19|t1/2 (liver)",
+          "Seed": 1194678234,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1560.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1194678234,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1194678234,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1194678250,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Rinetti1991_CPB_Population",
+      "Seed": 1194717609,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 25,
+        "Age": {
+          "Min": 29.0,
+          "Max": 64.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 52.0,
+          "Max": 93.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 160.0,
+          "Max": 178.0,
+          "Unit": "cm"
+        },
+        "Individual": {
+          "Name": "Rinetti1991_CPB",
+          "Seed": 1194275828,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 51.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 71.21,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 168.88,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 1.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP2C19|Human|CPB",
+            "CYP3A4|Human|CPB"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP2C19|Reference concentration",
+          "Seed": 1194724421,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.1976,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C19|t1/2 (liver)",
+          "Seed": 1194724421,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1560.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1194724421,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.728,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1194724421,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1194724421,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Omeprazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "LogP fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.6835584938,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Fu DrugBank",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.03,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.359,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 9.79E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 9.29,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 4.77,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "2C19 Linear Fit",
+          "Species": "Human",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 13.98,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "3A4 Linear Fit",
+          "Species": "Human",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.3707655759,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "Wu2014 - Table1 - CLr",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.05
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.000507,
+              "Unit": "l/h/kg",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "0.037l/h/73kg"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Liu 2005 - Ki in vivo unbound",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 3.1,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Liu 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "Wu2014 - Table1 - TDI",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 5.0,
+              "Unit": "1/h",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Wu 2014"
+              }
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 0.3,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 345.416,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Omeprazole capsule",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 41.65,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 30.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Other",
+            "Method": "Assumption",
+            "Description": "Gastric emptying"
+          }
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 1.02,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Oral Solution_Omeprazole",
+      "FormulationType": "Formulation_Dissolved"
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Andersson1993_Omeprazole_20mgIV",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 20.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 5.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "Andersson1993_Omeprazole_40mgPO",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 40.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Rinetti1991_Omeprazole_20mgPO",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 40.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Andersson1993_IV_CPA",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Andersson1993_IV_CPA|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Andersson1993_CPA",
+      "Compounds": [
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Andersson1993_Omeprazole_20mgIV"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Omeprazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Andersson1993_IV_CPA|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma-Omeprazole-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nAndersson1993_IV_CPA\n2023-06-07 15:45"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Omeprazole"
+        }
+      ]
+    },
+    {
+      "Name": "Andersson1993_IV_CPB",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Andersson1993_IV_CPB|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Andersson1993_CPB",
+      "Compounds": [
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Andersson1993_Omeprazole_20mgIV"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Omeprazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Andersson1993_IV_CPB|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma-Omeprazole-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nAndersson1993_IV_CPB\n2023-06-07 15:46"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Omeprazole"
+        }
+      ]
+    },
+    {
+      "Name": "Andersson1993_IV_CPA_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.2432,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Andersson1993_IV_CPA_Population|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Andersson1993_IV_CPA_Population|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Andersson1993_CPA_Population",
+      "Compounds": [
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Andersson1993_Omeprazole_20mgIV"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh A",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Andersson 1993 - Hepatic Impairment",
+                "Path": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nAndersson1993_IV_CPA_Population\n2023-06-07 15:51"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Omeprazole"
+        }
+      ]
+    },
+    {
+      "Name": "Andersson1993_IV_CPB_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.1976,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Andersson1993_IV_CPB_Population|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Andersson1993_IV_CPB_Population|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Andersson1993_IV_CPB_Population|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Andersson1993_IV_CPB_Population|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Andersson1993_CPB_Population",
+      "Compounds": [
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Andersson1993_Omeprazole_20mgIV"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh B",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Andersson 1993 - Hepatic Impairment",
+                "Path": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nAndersson1993_IV_CPB_Population\n2023-06-07 15:58"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Omeprazole"
+        }
+      ]
+    },
+    {
+      "Name": "Rinettie1991_CPA",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Rinettie1991_CPA|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Rinetti1991_CPA",
+      "Compounds": [
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rinetti1991_Omeprazole_20mgPO",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Omeprazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rinettie1991_CPA|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma-Omeprazole-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nRinettie1991_CPA\n2023-06-07 16:18"
+        }
+      ]
+    },
+    {
+      "Name": "Rinettie1991_CPB",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Rinettie1991_CPB|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Rinetti1991_CPB",
+      "Compounds": [
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rinetti1991_Omeprazole_20mgPO",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Omeprazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rinettie1991_CPB|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma-Omeprazole-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nRinettie1991_CPB\n2023-06-07 16:19"
+        }
+      ]
+    },
+    {
+      "Name": "Rinettie1991_CPA_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.2432,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Rinettie1991_CPA_Population|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Rinetti1991_CPA_Population",
+      "Compounds": [
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rinetti1991_Omeprazole_20mgPO",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Omeprazole|Intestinal permeability (transcellular)",
+          "Seed": 1197528265,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 9.79E-05,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 9.79E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh A",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µg/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Rinetti 1991 - Hepatic Impairment",
+                "Path": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nRinettie1991_CPA_Population\n2023-06-07 16:25"
+        }
+      ]
+    },
+    {
+      "Name": "Rinettie1991_CPB_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.1976,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Rinettie1991_CPB_Population|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Rinettie1991_CPB_Population|Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Rinetti1991_CPB_Population",
+      "Compounds": [
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rinetti1991_Omeprazole_20mgPO",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Omeprazole|Intestinal permeability (transcellular)",
+          "Seed": 1197528265,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 9.79E-05,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 9.79E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh B",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µg/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Rinetti 1991 - Hepatic Impairment",
+                "Path": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nRinettie1991_CPB_Population\n2023-06-07 16:31"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Molecule",
+          "Value": "Omeprazole",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 345.416
+              },
+              "Values": [
+                0.249825314,
+                0.2952289,
+                0.332576245,
+                0.2404941,
+                0.13991718,
+                0.178608388,
+                0.196035922,
+                0.131670117,
+                0.163048476,
+                0.121606022,
+                0.093478106,
+                0.09262391,
+                0.09358766,
+                0.10394372,
+                0.05188936,
+                0.0542597435,
+                0.040254686
+              ],
+              "Dimension": "Concentration (molar)",
+              "Unit": "µmol/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 345.416
+          },
+          "Values": [
+            3.84995031,
+            4.895646,
+            4.07875443,
+            3.68240762,
+            3.62747383,
+            3.42133856,
+            3.34606528,
+            2.93217826,
+            2.53222275,
+            1.91625869,
+            1.23538077,
+            0.9766536,
+            0.8426359,
+            0.6193468,
+            0.496806771,
+            0.333997548,
+            0.243264586
+          ],
+          "Dimension": "Concentration (molar)",
+          "Unit": "µmol/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Andersson1993_HI_20mgIV..Omeprazole.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.0833333358,
+          0.13333334,
+          0.183333337,
+          0.416666657,
+          0.5642825,
+          0.8333333,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          10.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Rinetti1991",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Omeprazole",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 345.416
+          },
+          "Values": [
+            0.0536725335,
+            0.3739993,
+            0.6398625,
+            0.4596856,
+            0.261961073,
+            0.155915156,
+            0.0593754947
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Rinetti1991_HI..Rinetti1991.Omeprazole.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.396483243,
+          1.06691217,
+          2.042803,
+          4.00484276,
+          6.02518034,
+          8.060418,
+          12.0720835
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Andersson1993",
+      "Classifications": [
+        {
+          "Name": "Individual Simulations",
+          "Classifiables": [
+            "Andersson1993_IV_CPA",
+            "Andersson1993_IV_CPB"
+          ]
+        },
+        {
+          "Name": "Population Simulations",
+          "Classifiables": [
+            "Andersson1993_IV_CPA_Population",
+            "Andersson1993_IV_CPB_Population"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Rinetti1991",
+      "Classifications": [
+        {
+          "Name": "Population Simulations",
+          "Classifications": [
+            {
+              "Name": "Individual Simulations",
+              "Classifiables": [
+                "Rinettie1991_CPA",
+                "Rinettie1991_CPB"
+              ]
+            }
+          ],
+          "Classifiables": [
+            "Rinettie1991_CPA_Population",
+            "Rinettie1991_CPB_Population"
+          ]
+        }
+      ]
+    }
+  ]
+}

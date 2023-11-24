@@ -1,0 +1,2641 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "Esterase_RBC",
+      "Category": "Brockmoller et al 2005",
+      "Parameters": [
+        {
+          "Path": "Esterase_RBC|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Esterase_RBC|Relative expression in blood cells",
+          "Value": 1.0
+        },
+        {
+          "Path": "Esterase_RBC|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Esterase_RBC|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Brockmoller2005_CPA",
+      "Seed": 1107471937,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 50.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 88.28,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 181.55,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "Esterase_RBC|Human|Brockmoller et al 2005"
+      ]
+    },
+    {
+      "Name": "Brockmoller2005_CPB",
+      "Seed": 1107535968,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 50.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 88.28,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 181.55,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "Esterase_RBC|Human|Brockmoller et al 2005"
+      ]
+    },
+    {
+      "Name": "Brockmoller2005_CPC",
+      "Seed": 1107561468,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 50.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 88.28,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 181.55,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 2.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "Esterase_RBC|Human|Brockmoller et al 2005"
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Brockmoller2005_CPA",
+      "Seed": 1107629812,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 42.0,
+          "Max": 58.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 75.0,
+          "Max": 105.0,
+          "Unit": "kg"
+        },
+        "BMI": {
+          "Min": 21.0,
+          "Max": 34.0,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Brockmoller2005_CPA",
+          "Seed": 1107471937,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 50.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 88.28,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 181.55,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 0.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "Esterase_RBC|Human|Brockmoller et al 2005"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "Esterase_RBC|Reference concentration",
+          "Seed": 1107654312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Brockmoller2005_CPB",
+      "Seed": 1107694500,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 42.0,
+          "Max": 58.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 75.0,
+          "Max": 105.0,
+          "Unit": "kg"
+        },
+        "BMI": {
+          "Min": 21.0,
+          "Max": 34.0,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Brockmoller2005_CPB",
+          "Seed": 1107535968,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 50.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 88.28,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 181.55,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 1.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "Esterase_RBC|Human|Brockmoller et al 2005"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "Esterase_RBC|Reference concentration",
+          "Seed": 1107708281,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Brockmoller2005_CPC",
+      "Seed": 1107742453,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 42.0,
+          "Max": 58.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 75.0,
+          "Max": 105.0,
+          "Unit": "kg"
+        },
+        "BMI": {
+          "Min": 21.0,
+          "Max": 34.0,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Brockmoller2005_CPC",
+          "Seed": 1107561468,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 50.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 88.28,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 181.55,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 2.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "Esterase_RBC|Human|Brockmoller et al 2005"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "Esterase_RBC|Reference concentration",
+          "Seed": 1107814859,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Levetiracetam",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "ChemDatabase",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -0.6,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "InVitro",
+                "Description": "http://www.t3db.ca/toxins/T3D3019"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "FDA data",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -0.64,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/021505_s000_Keppra_EAFONSI.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Publication1",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -0.67,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Petrusevska et al., JOURNAL OF PHARMACEUTICAL SCIENCES 104:2676–2687, 2015"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Publication2",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -0.49,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Petrusevska et al., JOURNAL OF PHARMACEUTICAL SCIENCES 104:2676–2687, 2015"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Optimized_RBC",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -0.5,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.966,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Pastalos et al.2017"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1040.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "NDA 21-505 Keppra, Petrusevska et al. 2015"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "NDA 21-505 Keppra, Petrusevska et al. 2015"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "adjusted",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.57E-05,
+              "Unit": "cm/s"
+            }
+          ]
+        },
+        {
+          "Name": "PAMPA",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2.28E-05,
+              "Unit": "cm/s",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "PETRUˇSEVSKA"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Rat intestinal",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 3.06E-05,
+              "Unit": "cm/s",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "PETRUSEVSKA"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Literature",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.57E-05,
+              "Unit": "cm/s",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Scotcher et al"
+              }
+            }
+          ]
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "in-vitro hydrolysis",
+          "Molecule": "Esterase",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Method": "Unknown",
+                "Description": "Assumed"
+              }
+            },
+            {
+              "Name": "Vmax",
+              "Value": 287.0,
+              "Unit": "pmol/ml/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Coupez et al 2003"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 439.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Coupez et al 2003"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "intrinsic Cl",
+          "Species": "Human",
+          "Molecule": "Esterase",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.002278,
+              "Unit": "l/min"
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.4,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Brockmoller et al, Coupeze et al.(calculated as ratio of observed CLr to GFR)"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Optimized_Whole Blood",
+          "Molecule": "Esterase",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 8997.24,
+              "Unit": "pmol/ml/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 439.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR-Optimized_Whole Blood",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.5,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Optimized-RBC",
+          "Molecule": "Esterase",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 8942.0,
+              "Unit": "pmol/ml/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 439.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Optimized_RBC",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.5
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "Coupeze et al",
+          "Species": "Human",
+          "Molecule": "Esterase_Liver",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.01,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Coupeze et al"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Coupeze et al.",
+          "Molecule": "Esterase_RBC",
+          "Metabolite": "L057",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 287.0,
+              "Unit": "pmol/ml/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Publication"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 439.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Coupeze et al."
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Adjusted",
+          "Molecule": "Esterase_RBC",
+          "Metabolite": "L057",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 8000.0,
+              "Unit": "pmol/ml/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 439.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "Coupeze et al"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 170.21,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "PubChem"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Tablet",
+      "FormulationType": "Formulation_Table",
+      "Parameters": [
+        {
+          "Name": "Fraction (dose)",
+          "Value": 0.0,
+          "TableFormula": {
+            "Name": "Fraction (dose)",
+            "XName": "Time",
+            "XDimension": "Time",
+            "XUnit": "h",
+            "YName": "Fraction (dose)",
+            "YDimension": "Dimensionless",
+            "UseDerivedValues": true,
+            "Points": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "RestartSolver": false
+              },
+              {
+                "X": 0.083,
+                "Y": 0.5,
+                "RestartSolver": false
+              },
+              {
+                "X": 0.16670000000000001,
+                "Y": 0.9,
+                "RestartSolver": false
+              },
+              {
+                "X": 0.25,
+                "Y": 1.0,
+                "RestartSolver": false
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Petruˇsevska et al and  Poongothai et al"
+          }
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Brockmoller2005_1000 mg PO",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1000.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Brockmoller2005_CPA",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 96.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brockmoller2005_CPA|Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Brockmoller2005_CPA",
+      "Compounds": [
+        {
+          "Name": "Levetiracetam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FDA data",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Rat intestinal",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Esterase_RBC-Coupeze et al.",
+              "MoleculeName": "Esterase_RBC"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Brockmoller2005_1000 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Levetiracetam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Brockmoller2005_CPA|Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma-Levetiracetam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nBrockmoller2005_CPA\n2023-06-06 15:33"
+        }
+      ]
+    },
+    {
+      "Name": "Brockmoller2005_CPB",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 96.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brockmoller2005_CPB|Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Brockmoller2005_CPB",
+      "Compounds": [
+        {
+          "Name": "Levetiracetam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FDA data",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Rat intestinal",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Esterase_RBC-Coupeze et al.",
+              "MoleculeName": "Esterase_RBC"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Brockmoller2005_1000 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Levetiracetam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Brockmoller2005_CPB|Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma-Levetiracetam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nBrockmoller2005_CPB\n2023-06-06 15:35"
+        }
+      ]
+    },
+    {
+      "Name": "Brockmoller2005_CPC",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 96.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brockmoller2005_CPC|Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Brockmoller2005_CPC",
+      "Compounds": [
+        {
+          "Name": "Levetiracetam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FDA data",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Rat intestinal",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Esterase_RBC-Coupeze et al.",
+              "MoleculeName": "Esterase_RBC"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Brockmoller2005_1000 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Levetiracetam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Brockmoller2005_CPC|Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma-Levetiracetam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nBrockmoller2005_CPC\n2023-06-06 15:37"
+        }
+      ]
+    },
+    {
+      "Name": "Brockmoller2005_CPA_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Esterase_RBC|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Esterase_RBC|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Esterase_RBC|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brockmoller2005_CPA_Population|Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Brockmoller2005_CPA",
+      "Compounds": [
+        {
+          "Name": "Levetiracetam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FDA data",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Rat intestinal",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Esterase_RBC-Coupeze et al.",
+              "MoleculeName": "Esterase_RBC"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Brockmoller2005_1000 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Levetiracetam|Intestinal permeability (transcellular)",
+          "Seed": 1108424859,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.001836,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.001836,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "mg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma-Levetiracetam-Peripheral Venous Blood-Plasma-Measurement",
+                "Path": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nBrockmoller2005_CPA_Population\n2023-06-06 15:41"
+        }
+      ]
+    },
+    {
+      "Name": "Brockmoller2005_CPB_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 60.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Esterase_RBC|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Esterase_RBC|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Esterase_RBC|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brockmoller2005_CPB_Population|Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Brockmoller2005_CPB",
+      "Compounds": [
+        {
+          "Name": "Levetiracetam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FDA data",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Rat intestinal",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Esterase_RBC-Coupeze et al.",
+              "MoleculeName": "Esterase_RBC"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Brockmoller2005_1000 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Levetiracetam|Intestinal permeability (transcellular)",
+          "Seed": 1108424859,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.001836,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.001836,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "mg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Brockmoller2005 - Child Pugh B",
+                "Path": "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nBrockmoller2005_CPB_Population\n2023-06-06 15:47"
+        }
+      ]
+    },
+    {
+      "Name": "Brockmoller2005_CPC_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 96.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Esterase_RBC|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Esterase_RBC|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Esterase_RBC|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brockmoller2005_CPC_Population|Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Brockmoller2005_CPC",
+      "Compounds": [
+        {
+          "Name": "Levetiracetam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FDA data",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Rat intestinal",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Esterase_RBC-Coupeze et al.",
+              "MoleculeName": "Esterase_RBC"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Brockmoller2005_1000 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Levetiracetam|Intestinal permeability (transcellular)",
+          "Seed": 1108424859,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.001836,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.001836,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "mg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Levetiracetam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Brockmoller2005 - Child Pugh C",
+                "Path": "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nBrockmoller2005_CPC_Population\n2023-06-06 15:51"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Brockmoller2005",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Levetiracetam",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 170.21
+              },
+              "Values": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 170.21
+          },
+          "Values": [
+            17.8908386,
+            18.5036316,
+            19.6079254,
+            20.2214241,
+            20.4675274,
+            22.0005646,
+            23.84176,
+            25.2520981,
+            31.7555161,
+            21.1409626,
+            18.0731258,
+            15.3733873,
+            13.90029,
+            16.4152737,
+            16.84437,
+            14.63578,
+            14.1449823,
+            12.4268389,
+            11.3214865,
+            11.1374378,
+            13.161624,
+            11.8119316,
+            7.76108837,
+            9.785276,
+            8.374233,
+            5.979832,
+            7.57457161,
+            7.0224247,
+            6.286228,
+            4.014174,
+            5.42451143,
+            4.933714,
+            4.688315,
+            4.38156652,
+            2.53472972,
+            2.28933072,
+            1.675834,
+            2.96382475,
+            0.873704255,
+            1.54784572,
+            1.24109721,
+            1.91523874,
+            1.05246449,
+            0.438967645,
+            0.4305056,
+            0.123757146
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Brockmoller2005_PO_ChildPughA..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.1,
+          0.25,
+          0.3,
+          0.35,
+          0.37,
+          0.4,
+          0.45,
+          0.54,
+          0.6,
+          0.9195402,
+          1.37931037,
+          1.83908045,
+          2.75862074,
+          3.218391,
+          3.678161,
+          3.68,
+          3.68999982,
+          4.137931,
+          5.51724148,
+          5.52,
+          5.97701168,
+          5.98,
+          8.275862,
+          8.735632,
+          8.740001,
+          11.034483,
+          11.4942522,
+          11.5,
+          11.5099993,
+          14.2528734,
+          15.1724138,
+          15.1799994,
+          15.1900005,
+          15.2,
+          23.4482765,
+          23.45,
+          23.46,
+          23.9080467,
+          29.4252872,
+          30.3448277,
+          30.35,
+          31.2643681,
+          36.32184,
+          36.33,
+          47.3563232,
+          47.36
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Brockmoller2005",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Levetiracetam",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 170.21
+          },
+          "Values": [
+            21.7346935,
+            24.2448978,
+            18.9795914,
+            19.7142849,
+            20.0816326,
+            23.938776,
+            26.20408,
+            28.10204,
+            19.34694,
+            20.3877544,
+            15.8571424,
+            21.4285717,
+            17.44898,
+            14.2040815,
+            14.4489794,
+            14.6938772,
+            13.5918369,
+            15.1836739,
+            18.8571434,
+            11.32653,
+            12.3673468,
+            12.8571424,
+            16.7142868,
+            8.571428,
+            12.7346935,
+            8.938776,
+            10.5306129,
+            8.387754,
+            9.367347,
+            8.693877,
+            6.367347,
+            6.979592,
+            7.46938753,
+            10.5918369,
+            7.102041,
+            4.04081631,
+            4.469388,
+            5.326531,
+            5.6938777,
+            7.95918369,
+            2.81632662,
+            4.40816355,
+            3.3061223,
+            5.08163261,
+            1.83673465,
+            2.20408177,
+            1.22448981,
+            1.46938777,
+            2.08163261,
+            3.06122446,
+            3.42857146,
+            0.6734694,
+            2.26530623,
+            1.71428573,
+            1.22448981,
+            0.551020443,
+            0.979591846,
+            0.244897962,
+            0.306122452,
+            0.6734694
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Brockmoller2005_PO_ChildPughB..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.2,
+          0.3,
+          0.31,
+          0.320000023,
+          0.321,
+          0.329999983,
+          0.34,
+          0.5,
+          1.60279882,
+          1.634519,
+          2.410729,
+          2.58052468,
+          2.916385,
+          4.18892145,
+          4.196385,
+          4.20384836,
+          4.627405,
+          4.67591858,
+          4.787872,
+          6.386939,
+          6.41865873,
+          6.433586,
+          6.551137,
+          8.588688,
+          8.715568,
+          9.057026,
+          9.562682,
+          9.954518,
+          9.984373,
+          11.7924194,
+          12.1786594,
+          12.6544609,
+          12.6693878,
+          13.2216911,
+          15.8581915,
+          16.22204,
+          16.2351017,
+          16.2612247,
+          16.27242,
+          17.255743,
+          23.49901,
+          23.5475216,
+          23.9710789,
+          24.0251884,
+          24.3834419,
+          24.3946342,
+          29.8504963,
+          29.85796,
+          30.3337612,
+          30.363615,
+          30.3748112,
+          35.7765579,
+          35.8250732,
+          36.2654228,
+          36.7076378,
+          47.6585426,
+          47.6716042,
+          48.5634956,
+          59.99394,
+          60.00513
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Brockmoller2005",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Levetiracetam",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Levetiracetam|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 170.21
+          },
+          "Values": [
+            1.59237432,
+            5.58024263,
+            24.8443661,
+            10.4887352,
+            30.7954941,
+            20.9181976,
+            21.2863083,
+            16.74662,
+            27.11473,
+            19.2620449,
+            22.7591,
+            23.0658569,
+            16.0110912,
+            24.1708832,
+            22.2086658,
+            23.1289425,
+            19.44818,
+            20.061697,
+            15.3993063,
+            17.2405548,
+            22.0259972,
+            13.9279032,
+            20.7993069,
+            15.7091856,
+            19.2675915,
+            10.8627386,
+            17.30468,
+            18.0409012,
+            13.4415941,
+            14.6686306,
+            8.288388,
+            16.08007,
+            16.5708847,
+            8.971923,
+            10.014905,
+            12.4689779,
+            8.420104,
+            3.5736568,
+            8.669325,
+            10.4488735,
+            6.4,
+            7.32097054,
+            5.851993,
+            5.116118,
+            7.26343155,
+            1.74211431,
+            8.490814,
+            3.28457522,
+            6.0454073,
+            0.83084923,
+            6.413865,
+            2.37331033,
+            4.704679,
+            1.8828423,
+            4.27556324,
+            0.5334489,
+            3.42530322,
+            3.854766,
+            1.15563262,
+            1.52374351,
+            0.7965338,
+            1.22634315,
+            2.57642984,
+            3.12859631,
+            2.523397,
+            1.72617,
+            0.62218374,
+            1.05164647
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Brockmoller2005_PO_ChildPughC..Brockmoller2005.Levetiracetam.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          1.10641253,
+          1.28665519,
+          1.70537257,
+          1.96048534,
+          1.97435009,
+          1.97989607,
+          1.99653387,
+          2.24332762,
+          2.25996518,
+          2.357019,
+          2.515078,
+          2.52894282,
+          3.114038,
+          3.48284221,
+          4.75008631,
+          4.791681,
+          5.07729626,
+          5.10502625,
+          5.346274,
+          6.333449,
+          6.54974031,
+          6.635702,
+          6.946274,
+          9.428076,
+          9.588908,
+          9.661006,
+          9.952167,
+          9.985442,
+          12.4894276,
+          12.5448875,
+          12.7084923,
+          13.0606585,
+          13.0828419,
+          24.0388222,
+          24.0859623,
+          24.19688,
+          24.4658566,
+          24.6987877,
+          29.4488735,
+          29.9812832,
+          30.2502613,
+          31.19584,
+          35.64922,
+          36.0679359,
+          36.16499,
+          36.36742,
+          36.6724434,
+          47.73657,
+          47.86135,
+          48.0776443,
+          48.3299828,
+          59.4467926,
+          59.552166,
+          59.8766022,
+          59.98475,
+          60.26759,
+          71.24575,
+          71.26516,
+          71.5951462,
+          71.6117859,
+          83.33033,
+          83.8017349,
+          84.31473,
+          84.33969,
+          95.15979,
+          95.57574,
+          95.97781,
+          95.99722
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Individual Simulations",
+      "Classifiables": [
+        "Brockmoller2005_CPA",
+        "Brockmoller2005_CPB",
+        "Brockmoller2005_CPC"
+      ]
+    },
+    {
+      "Name": "Population Simulations",
+      "Classifiables": [
+        "Brockmoller2005_CPA_Population",
+        "Brockmoller2005_CPB_Population",
+        "Brockmoller2005_CPC_Population"
+      ]
+    }
+  ]
+}

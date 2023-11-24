@@ -6,10 +6,6 @@
          "Path": "Models/Alfentanil.json"
       },
       {
-         "Id": "Caffeine",
-         "Path": "Models/Caffeine.json"
-      },
-      {
          "Id": "Levetiracetam",
          "Path": "Models/Levetiracetam.json"
       },
@@ -20,10 +16,6 @@
       {
          "Id": "Midazolam",
          "Path": "Models/Midazolam.json"
-      },
-      {
-         "Id": "Nifedipine",
-         "Path": "Models/Nifedipine.json"
       },
       {
          "Id": "Omeprazole",
@@ -45,162 +37,262 @@
       "AllPlots": [
          {
             "Project": "Alfentanil",
-            "Simulation": "Ferrier CPB 0.05 mg/kg IV",
+            "Simulation": "Ferrier 1985, Alfentanil iv 0.05 mg/kg_HI_CPB",
             "SectionReference": "Alfentanil_HI"
          },
          {
             "Project": "Alfentanil",
-            "Simulation": "Ferrier CPC 0.05 mg/kg IV",
+            "Simulation": "Ferrier 1985, Alfentanil iv 0.05 mg/kg_HI_CPC",
             "SectionReference": "Alfentanil_HI"
          },
          {
-            "Project": "Caffeine",
-            "Simulation": "Desmond CPA 250 mg PO",
-            "SectionReference": "Caffeine_HI"
+            "Project": "Alfentanil",
+            "Simulation": "Ferrier1985 Child Pugh B",
+            "SectionReference": "Alfentanil_HI"
          },
          {
-            "Project": "Caffeine",
-            "Simulation": "Desmond CPB 250 mg PO",
-            "SectionReference": "Caffeine_HI"
-         },
-         {
-            "Project": "Caffeine",
-            "Simulation": "Desmond CPC 250 mg PO",
-            "SectionReference": "Caffeine_HI"
+            "Project": "Alfentanil",
+            "Simulation": "Ferrier1985 Child Pugh C",
+            "SectionReference": "Alfentanil_HI"
          },
          {
             "Project": "Levetiracetam",
-            "Simulation": "Brockmoller CPA 1000 mg PO",
+            "Simulation": "Brockmoller2005_CPA",
             "SectionReference": "Levetiracetam_HI"
          },
          {
             "Project": "Levetiracetam",
-            "Simulation": "Brockmoller CPB 1000 mg PO",
+            "Simulation": "Brockmoller2005_CPB",
             "SectionReference": "Levetiracetam_HI"
          },
          {
             "Project": "Levetiracetam",
-            "Simulation": "Brockmoller CPC 1000 mg PO",
+            "Simulation": "Brockmoller2005_CPC",
             "SectionReference": "Levetiracetam_HI"
          },
          {
+            "Project": "Levetiracetam",
+            "Simulation": "Brockmoller2005_CPA_Population",
+            "SectionReference": "Levetiracetam_HI"
+         },
+         {
+            "Project": "Levetiracetam",
+            "Simulation": "Brockmoller2005_CPB_Population",
+            "SectionReference": "Levetiracetam_HI"
+         },
+         {
+            "Project": "Levetiracetam",
+            "Simulation": "Brockmoller2005_CPC_Population",
+            "SectionReference": "Levetiracetam_HI"
+         },
+         {
+            "Project": "Lidocaine",
+            "Simulation": "Orlando2003_CPA",
+            "SectionReference": "Lidocaine_HI"
+         },
+         {
+            "Project": "Lidocaine",
+            "Simulation": "Orlando2003_CPC",
+            "SectionReference": "Lidocaine_HI"
+         },
+         {
+            "Project": "Lidocaine",
+            "Simulation": "Orlando2003_CPA_Population",
+            "SectionReference": "Lidocaine_HI"
+         },
+         {
+            "Project": "Lidocaine",
+            "Simulation": "Orlando2003_CPC_Population",
+            "SectionReference": "Lidocaine_HI"
+         },
+         {
             "Project": "Metoprolol",
-            "Simulation": "Regardh CPA 20 mg IV",
+            "Simulation": "Regardh1981_CPA_IV",
             "SectionReference": "Metoprolol_HI"
          },
          {
             "Project": "Metoprolol",
-            "Simulation": "Regardh CPB 20 mg IV",
+            "Simulation": "Regardh1981_CPB_IV",
             "SectionReference": "Metoprolol_HI"
          },
          {
             "Project": "Metoprolol",
-            "Simulation": "Regardh CPA 50 mg PO",
+            "Simulation": "Regardh1981_CPA_IV_Population",
             "SectionReference": "Metoprolol_HI"
          },
          {
             "Project": "Metoprolol",
-            "Simulation": "Regardh CPB 50 mg PO",
+            "Simulation": "Regardh1981_CPB_IV_Population",
+            "SectionReference": "Metoprolol_HI"
+         },
+         {
+            "Project": "Metoprolol",
+            "Simulation": "Regardh1981_CPA_PO",
+            "SectionReference": "Metoprolol_HI"
+         },
+         {
+            "Project": "Metoprolol",
+            "Simulation": "Regardh1981_CPB_PO",
+            "SectionReference": "Metoprolol_HI"
+         },
+         {
+            "Project": "Metoprolol",
+            "Simulation": "Regardh1981_CPA_PO_Population",
+            "SectionReference": "Metoprolol_HI"
+         },
+         {
+            "Project": "Metoprolol",
+            "Simulation": "Regardh1981_CPB_PO_Population",
             "SectionReference": "Metoprolol_HI"
          },
          {
             "Project": "Midazolam",
-            "Simulation": "Macgilchrist CPA 0.075 mg/kg IV",
+            "Simulation": "Macgilchrist1986_CPA",
             "SectionReference": "Midazolam_HI"
          },
          {
             "Project": "Midazolam",
-            "Simulation": "Macgilchrist CPB 0.075 mg/kg IV",
+            "Simulation": "Macgilchrist1986_CPB",
             "SectionReference": "Midazolam_HI"
          },
          {
             "Project": "Midazolam",
-            "Simulation": "Macgilchrist CPC 0.075 mg/kg IV",
+            "Simulation": "Macgilchrist1986_CPC",
             "SectionReference": "Midazolam_HI"
          },
          {
             "Project": "Midazolam",
-            "Simulation": "Pentikainen CPB 7.5 mg IV",
+            "Simulation": "Macgilchrist1986_CPA_Population",
             "SectionReference": "Midazolam_HI"
          },
          {
             "Project": "Midazolam",
-            "Simulation": "Pentikainen CPC 7.5 mg IV",
+            "Simulation": "Macgilchrist1986_CPB_Population",
             "SectionReference": "Midazolam_HI"
          },
          {
             "Project": "Midazolam",
-            "Simulation": "Pentikainen CPB 15 mg PO",
+            "Simulation": "Macgilchrist1986_CPC_Population",
             "SectionReference": "Midazolam_HI"
          },
          {
             "Project": "Midazolam",
-            "Simulation": "Pentikainen CPC 15 mg PO",
+            "Simulation": "Pentikainen1989_IV_CPB",
+            "SectionReference": "Midazolam_HI"
+         },
+         {
+            "Project": "Midazolam",
+            "Simulation": "Pentikainen1989_IV_CPC",
+            "SectionReference": "Midazolam_HI"
+         },
+         {
+            "Project": "Midazolam",
+            "Simulation": "Pentikainen1989_IV_CPB_Population",
+            "SectionReference": "Midazolam_HI"
+         },
+         {
+            "Project": "Midazolam",
+            "Simulation": "Pentikainen1989_IV_CPC_Population",
+            "SectionReference": "Midazolam_HI"
+         },
+         {
+            "Project": "Midazolam",
+            "Simulation": "Pentikanen1889_PO_CPB",
+            "SectionReference": "Midazolam_HI"
+         },
+         {
+            "Project": "Midazolam",
+            "Simulation": "Pentikanen1889_PO_CPC",
+            "SectionReference": "Midazolam_HI"
+         },
+         {
+            "Project": "Midazolam",
+            "Simulation": "Pentikanen1889_PO_CPB_Population",
+            "SectionReference": "Midazolam_HI"
+         },
+         {
+            "Project": "Midazolam",
+            "Simulation": "Pentikanen1889_PO_CPC_Population",
             "SectionReference": "Midazolam_HI"
          },
          {
             "Project": "Omeprazole",
-            "Simulation": "Andersen CPA 20 mg IV",
+            "Simulation": "Andersson1993_IV_CPA",
             "SectionReference": "Omeprazole_HI"
          },
          {
             "Project": "Omeprazole",
-            "Simulation": "Andersen CPB 15 mg IV",
+            "Simulation": "Andersson1993_IV_CPB",
             "SectionReference": "Omeprazole_HI"
          },
          {
             "Project": "Omeprazole",
-            "Simulation": "Andersen CPC 15 mg IV",
+            "Simulation": "Andersson1993_IV_CPA_Population",
             "SectionReference": "Omeprazole_HI"
          },
          {
             "Project": "Omeprazole",
-            "Simulation": "Pique CPA 80 mg 8 mg/h IV",
+            "Simulation": "Andersson1993_IV_CPB_Population",
             "SectionReference": "Omeprazole_HI"
          },
          {
             "Project": "Omeprazole",
-            "Simulation": "Pique CPB 80 mg 8 mg/h IV",
+            "Simulation": "Rinettie1991_CPA",
             "SectionReference": "Omeprazole_HI"
          },
          {
             "Project": "Omeprazole",
-            "Simulation": "Pique CPC 80 mg 8 mg/h IV",
+            "Simulation": "Rinettie1991_CPB",
             "SectionReference": "Omeprazole_HI"
          },
          {
             "Project": "Omeprazole",
-            "Simulation": "Rinetti CPA 20 mg PO",
+            "Simulation": "Rinettie1991_CPA_Population",
             "SectionReference": "Omeprazole_HI"
          },
          {
             "Project": "Omeprazole",
-            "Simulation": "Rinetti CPB 20 mg PO",
-            "SectionReference": "Omeprazole_HI"
-         },
-         {
-            "Project": "Omeprazole",
-            "Simulation": "Rinetti CPC 20 mg PO",
+            "Simulation": "Rinettie1991_CPB_Population",
             "SectionReference": "Omeprazole_HI"
          },
          {
             "Project": "Sildenafil",
-            "Simulation": "Muirhead CPA 50 mg PO",
+            "Simulation": "Muirhead2002_CPB",
             "SectionReference": "Sildenafil_HI"
          },
          {
             "Project": "Sildenafil",
-            "Simulation": "Muirhead CPB 50 mg PO",
+            "Simulation": "Muirhead2002_CPA",
+            "SectionReference": "Sildenafil_HI"
+         },
+         {
+            "Project": "Sildenafil",
+            "Simulation": "Muirhead2002_CPA_Population",
+            "SectionReference": "Sildenafil_HI"
+         },
+         {
+            "Project": "Sildenafil",
+            "Simulation": "Muirhead2002_CPB_Population",
             "SectionReference": "Sildenafil_HI"
          },
          {
             "Project": "Theophylline",
-            "Simulation": "Froomes CPA 3 mg/kg IV",
+            "Simulation": "Froomes1981_CPB",
             "SectionReference": "Theophylline_HI"
          },
          {
             "Project": "Theophylline",
-            "Simulation": "Froomes CPB 3 mg/kg IV",
+            "Simulation": "Froomes1981_CPC",
+            "SectionReference": "Theophylline_HI"
+         },
+         {
+            "Project": "Theophylline",
+            "Simulation": "Froomes1981_CPB_Population",
+            "SectionReference": "Theophylline_HI"
+         },
+         {
+            "Project": "Theophylline",
+            "Simulation": "Froomes1981_CPC_Population",
             "SectionReference": "Theophylline_HI"
          }
       ]
@@ -236,23 +328,6 @@
                ]
             },
             {
-               "Title": "Caffeine",
-               "Content": "Content/Caffeine_Introduction.md",
-               "Sections": [
-                  {
-                     "Reference": "Caffeine_Healthy",
-                     "Title": "Caffeine in a Healthy Population",
-                     "Content": "Content/Caffeine_healthy.md"
-                     
-                  },
-                  {
-                     "Reference": "Caffeine_HI",
-                     "Title": "Caffeine in a HI Population",
-                     "Content": "Content/Caffeine_HI.md"
-                  }
-               ]
-            },
-            {
                "Title": "Levetiracetam",
                "Content": "Content/Levetiracetam_Introduction.md",
                "Sections": [
@@ -265,6 +340,22 @@
                      "Reference": "Levetiracetam_HI",
                      "Title": "Levetiracetam in a HI Population",
                      "Content": "Content/Levetiracetam_HI.md"
+                  }
+               ]
+            },
+            {
+               "Title": "Lidocaine",
+               "Content": "Content/Lidocaine_Introduction.md",
+               "Sections": [
+                  {
+                     "Reference": "Lidocaine_Healthy",
+                     "Title": "Lidocaine in a Healthy Population",
+                     "Content": "Content/Lidocaine_healthy.md"
+                  },
+                  {
+                     "Reference": "Lidocaine_HI",
+                     "Title": "Lidocaine in a HI Population",
+                     "Content": "Content/Lidocaine_HI.md"
                   }
                ]
             },
@@ -299,23 +390,6 @@
                      "Reference": "Midazolam_HI",
                      "Title": "Midazolam in a HI Population",
                      "Content": "Content/Midazolam_HI.md"
-                  }
-               ]
-            },
-            {
-               "Title": "Nifedipine",
-               "Content": "Content/Nifedipine_Introduction.md",
-               "Sections": [
-                  {
-                     "Reference": "Nifedipine_Healthy",
-                     "Title": "Nifedipine in a Healthy Population",
-                     "Content": "Content/Nifedipine_healthy.md"
-                     
-                  },
-                  {
-                     "Reference": "Nifedipine_HI",
-                     "Title": "Nifedipine in a HI Population",
-                     "Content": "Content/Nifedipine_HI.md"
                   }
                ]
             },

@@ -1,0 +1,2485 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C19",
+      "Category": "CPA",
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.2432,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00014961101137
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0003526545268
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00015816021202
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00040608703086
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2C19"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C19",
+      "Category": "CPB",
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.1976,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00014961101137
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0003526545268
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00015816021202
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00040608703086
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.3238009746
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2C19"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C9",
+      "Category": "CPA",
+      "Parameters": [
+        {
+          "Path": "CYP2C9|Reference concentration",
+          "Value": 2.6496,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (liver)",
+          "Value": 6240.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.00039687350455
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
+          "Value": 4.5940341362E-05
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0018822778753
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0002131121391
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2C9"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C9",
+      "Category": "CPB",
+      "Parameters": [
+        {
+          "Path": "CYP2C9|Reference concentration",
+          "Value": 1.9584,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (liver)",
+          "Value": 6240.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.00039687350455
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
+          "Value": 4.5940341362E-05
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0018822778753
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0002131121391
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2C9"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPA",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPB",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Muirhead2002_CPA",
+      "Seed": 1132698968,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 32.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 72.54,
+          "Unit": "kg"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP2C19|Human|CPA",
+        "CYP2C9|Human|CPA",
+        "CYP3A4|Human|CPA"
+      ]
+    },
+    {
+      "Name": "Muirhead2002_CPB",
+      "Seed": 1132760562,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 32.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 72.54,
+          "Unit": "kg"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP2C19|Human|CPB",
+        "CYP2C9|Human|CPB",
+        "CYP3A4|Human|CPB"
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Muirhead2002_CPA_Population",
+      "Seed": 1132829953,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 32.0,
+          "Max": 63.0,
+          "Unit": "year(s)"
+        },
+        "BMI": {
+          "Min": 20.0,
+          "Max": 24.0,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Muirhead2002_CPA",
+          "Seed": 1132698968,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 32.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 72.54,
+              "Unit": "kg"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 0.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP2C19|Human|CPA",
+            "CYP2C9|Human|CPA",
+            "CYP3A4|Human|CPA"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP2C19|Reference concentration",
+          "Seed": 1132837640,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.2432,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C19|t1/2 (liver)",
+          "Seed": 1132837640,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1560.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9|Reference concentration",
+          "Seed": 1132837640,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2.6496,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9|t1/2 (liver)",
+          "Seed": 1132837656,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 6240.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1132837656,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1132837656,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1132837656,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Muirhead2002_CPB_Population",
+      "Seed": 1133167203,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 32.0,
+          "Max": 63.0,
+          "Unit": "year(s)"
+        },
+        "BMI": {
+          "Min": 20.0,
+          "Max": 24.0,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Muirhead2002_CPB",
+          "Seed": 1132760562,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 32.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 72.54,
+              "Unit": "kg"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 1.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP2C19|Human|CPB",
+            "CYP2C9|Human|CPB",
+            "CYP3A4|Human|CPB"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP2C19|Reference concentration",
+          "Seed": 1133175875,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.1976,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C19|t1/2 (liver)",
+          "Seed": 1133175875,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1560.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9|Reference concentration",
+          "Seed": 1133175875,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.9584,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9|t1/2 (liver)",
+          "Seed": 1133175875,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 6240.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1133175875,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.728,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1133175890,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1133175890,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Sildenafil",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Glycoprotein",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.8411110506,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI_All_DissoKineticFit' on 2022-08-12 15:40"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.04,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI_All_DissoKineticFit' on 2022-08-12 15:40"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 3.5,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Salerno 2021"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Salerno 2021"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Oral solution",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 100.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 0.00044843836067,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI_All_DissoKineticFit' on 2022-08-12 15:40"
+              }
+            }
+          ]
+        }
+      ],
+      "Permeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Permeability",
+              "Value": 0.0758702742,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI_All_DissoKineticFit' on 2022-08-12 15:40"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 5.97,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Salerno 2021"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Warrington",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.01009105,
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Warrington 2000"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 23.1,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Warrington 2000"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 1.777778489,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI_All_DissoKineticFit' on 2022-08-12 15:40"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Warrington",
+          "Molecule": "CYP2C9",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.02,
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Warrington 2000"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 9.6,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Warrington 2000"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 3.5234757314,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI_All_DissoKineticFit' on 2022-08-12 15:40"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Warrington",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.16918611,
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Warrington 2000"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 23.1,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Warrington 2000"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 29.8061576339,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI_All_DissoKineticFit' on 2022-08-12 15:40"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 474.58,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Description": "DrugBank DB00203"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Sildenafil Tablet",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 4.164698,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI_All_DissoKineticFit' on 2022-08-12 15:40"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 1.37405,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI_All_DissoKineticFit' on 2022-08-12 15:40"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Muirhead2002_HI_50mgPO_SD",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 50.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "Events": [
+    {
+      "Name": "Light breakfast",
+      "Template": "Meal: Egg sandwich (Human)"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Muirhead2002_CPB",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 18.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Muirhead2002_CPB|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Muirhead2002_CPB",
+      "Compounds": [
+        {
+          "Name": "Sildenafil",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-Warrington",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP2C9-Warrington",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP3A4-Warrington",
+              "MoleculeName": "CYP3A4"
+            }
+          ],
+          "Protocol": {
+            "Name": "Muirhead2002_HI_50mgPO_SD",
+            "Formulations": [
+              {
+                "Name": "Sildenafil Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Light breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Muirhead2002_CPB|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma-Sildenafil-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nMuirhead2002_CPB\n2023-06-06 22:41"
+        }
+      ]
+    },
+    {
+      "Name": "Muirhead2002_CPA",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 18.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Value": 0.00178,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Muirhead2002_CPA|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Muirhead2002_CPA",
+      "Compounds": [
+        {
+          "Name": "Sildenafil",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-Warrington",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP2C9-Warrington",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP3A4-Warrington",
+              "MoleculeName": "CYP3A4"
+            }
+          ],
+          "Protocol": {
+            "Name": "Muirhead2002_HI_50mgPO_SD",
+            "Formulations": [
+              {
+                "Name": "Sildenafil Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Light breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sildenafil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Muirhead2002_CPA|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma-Sildenafil-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nMuirhead2002_CPA\n2023-06-06 22:52"
+        }
+      ]
+    },
+    {
+      "Name": "Muirhead2002_CPA_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 18.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.2432,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C9|Reference concentration",
+          "Value": 2.6496,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (liver)",
+          "Value": 6240.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Muirhead2002_CPA_Population|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Muirhead2002_CPA_Population",
+      "Compounds": [
+        {
+          "Name": "Sildenafil",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-Warrington",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP2C9-Warrington",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP3A4-Warrington",
+              "MoleculeName": "CYP3A4"
+            }
+          ],
+          "Protocol": {
+            "Name": "Muirhead2002_HI_50mgPO_SD",
+            "Formulations": [
+              {
+                "Name": "Sildenafil Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Light breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Neighborhoods|Duodenum_int_Duodenum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134409718,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134429046,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134436312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134444718,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134450734,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Sildenafil|Intestinal permeability (transcellular)",
+          "Seed": 1134487156,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00044843836067,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00044843836067,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh A",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Muirhead 2002 - Hepatic Impairment",
+                "Path": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#00000000"
+          },
+          "OriginText": "Undefined\nMuirhead2002_CPA_Population\n2023-06-06 23:12"
+        }
+      ]
+    },
+    {
+      "Name": "Muirhead2002_CPB_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 18.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.1976,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 1560.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C9|Reference concentration",
+          "Value": 1.9584,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (liver)",
+          "Value": 6240.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Muirhead2002_CPB_Population|Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Muirhead2002_CPB_Population",
+      "Compounds": [
+        {
+          "Name": "Sildenafil",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C19-Warrington",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP2C9-Warrington",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP3A4-Warrington",
+              "MoleculeName": "CYP3A4"
+            }
+          ],
+          "Protocol": {
+            "Name": "Muirhead2002_HI_50mgPO_SD",
+            "Formulations": [
+              {
+                "Name": "Sildenafil Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Light breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Neighborhoods|Duodenum_int_Duodenum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134409718,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134429046,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134436312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134444718,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Sildenafil|P (interstitial->intracellular)",
+          "Seed": 1134450734,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00178,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Sildenafil|Intestinal permeability (transcellular)",
+          "Seed": 1134487156,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.00044843836067,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.00044843836067,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh B",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Sildenafil|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Muirhead 2002 - Hepatic Impairment",
+                "Path": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#00000000"
+          },
+          "OriginText": "Sildenafil\nMuirhead2002_CPB_Population\n2023-06-06 23:27"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Molecule",
+          "Value": "Sildenafil",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Sildenafil|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 474.58
+          },
+          "Values": [
+            19.1858,
+            111.11142,
+            217.707031,
+            244.789078,
+            229.579391,
+            69.55316,
+            51.6314278,
+            16.91351
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Muirhead2002_HI..Sildenafil.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.43489933,
+          0.700671136,
+          1.23221469,
+          1.69127512,
+          2.19865775,
+          6.16107368,
+          10.099329,
+          17.9033546
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Individual Simulations",
+      "Classifiables": [
+        "Muirhead2002_CPB",
+        "Muirhead2002_CPA"
+      ]
+    }
+  ]
+}

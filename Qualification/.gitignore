@@ -1,5 +1,7 @@
 re_input*
+re_output*
 
+~$*.doc
 
 
 log-*.txt

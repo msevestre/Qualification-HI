@@ -1,0 +1,6372 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT1A4",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|UGT1A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "UGT1A4|Reference concentration",
+          "Value": 2.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "UGT1A4"
+      }
+    },
+    {
+      "Type": "OtherProtein",
+      "Species": "Human",
+      "Molecule": "GABRG2",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Parameters": [
+        {
+          "Path": "GABRG2|Reference concentration",
+          "Value": 1.04099689,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "GABRG2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "GABRG2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|GABRG2|Relative expression",
+          "Value": 1.0
+        }
+      ],
+      "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPA",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPB",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPC",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 2.0
+          }
+        ]
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Macgilchrist1986_CPA",
+      "Seed": 1177893234,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 40.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 70.58,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 176.0,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|CPA",
+        "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+        "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+      ]
+    },
+    {
+      "Name": "Macgilchrist1986_CPB",
+      "Seed": 1177956687,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 40.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 70.25,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 176.0,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+        "CYP3A4|Human|CPB",
+        "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+      ]
+    },
+    {
+      "Name": "Macgilchrist1986_CPC",
+      "Seed": 1178005656,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 40.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 69.62,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 176.0,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 2.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+        "CYP3A4|Human|CPC",
+        "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+      ]
+    },
+    {
+      "Name": "Pentikainen1989_CPB",
+      "Seed": 1179597968,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 48.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 84.04,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 185.0,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+        "CYP3A4|Human|CPB",
+        "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+      ]
+    },
+    {
+      "Name": "Pentikainen1989_CPC",
+      "Seed": 1179658406,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 48.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 83.4,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 185.0,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 2.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+        "CYP3A4|Human|CPC",
+        "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Macgilchrist1986_CPA_Population",
+      "Seed": 1178079453,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 39.0,
+          "Max": 54.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 67.0,
+          "Max": 75.6,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Macgilchrist1986_CPA",
+          "Seed": 1177893234,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 40.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 70.58,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 176.0,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 0.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP3A4|Human|CPA",
+            "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+            "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1178083937,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1178083953,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1178083953,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Macgilchrist1986_CPB_Population",
+      "Seed": 1178130484,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 39.0,
+          "Max": 54.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 67.0,
+          "Max": 75.5,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Macgilchrist1986_CPB",
+          "Seed": 1177956687,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 40.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 70.25,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 176.0,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 1.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+            "CYP3A4|Human|CPB",
+            "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1178134890,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.728,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1178134890,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1178134890,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Macgilchrist1986_CPC_Population",
+      "Seed": 1178192031,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 39.0,
+          "Max": 54.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 67.0,
+          "Max": 75.5,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Macgilchrist1986_CPC",
+          "Seed": 1178005656,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 40.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 69.62,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 176.0,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 2.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+            "CYP3A4|Human|CPC",
+            "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1178196390,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.728,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1178196390,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1178196406,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Pentikainen1989_CPB_Population",
+      "Seed": 1179738640,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 30.0,
+          "Max": 67.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 71.0,
+          "Max": 108.0,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Pentikainen1989_CPB",
+          "Seed": 1179597968,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 48.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 84.04,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 185.0,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 1.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+            "CYP3A4|Human|CPB",
+            "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1179743109,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.728,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1179743109,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1179743109,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Pentikainen1989_CPC_Population",
+      "Seed": 1179784000,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 30.0,
+          "Max": 67.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 71.0,
+          "Max": 108.0,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Pentikainen1989_CPC",
+          "Seed": 1179658406,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 48.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 83.4,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 185.0,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 2.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "UGT1A4|Human|European (P-gp modified, CYP3A4 36 h)",
+            "CYP3A4|Human|CPC",
+            "GABRG2|Human|European (P-gp modified, CYP3A4 36 h)"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1179788265,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.728,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1179788265,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1179788265,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Midazolam",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.8972038771,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Gertz et al. 2010",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.031,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Aqueous solubility",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.13,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Heikkinen 2012"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 5.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Heikkinen 2012"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "FaSSIF",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.049,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Heikkinen 2012"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Heikkinen 2012"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "FeSSIF",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.09,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Heikkinen 2012"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 5.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Heikkinen 2012"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 0.00015549970673,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 6.2
+        },
+        {
+          "Type": "Acid",
+          "Pka": 10.95
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "SpecificBinding",
+          "DataSource": "Buhr 1997",
+          "Molecule": "GABRG2",
+          "Parameters": [
+            {
+              "Name": "koff",
+              "Value": 1.0,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+              }
+            },
+            {
+              "Name": "Kd",
+              "Value": 1.8,
+              "Unit": "nmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Optimized",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.6401025724,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Optimized",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 850.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 4.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "InVitro",
+                "Description": "aggregated from literature"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 8.7607941215,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Optimized",
+          "Molecule": "UGT1A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 276.0,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Klieber 2008"
+              }
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 58.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Achour 2014"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 37.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Klieber 2008"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 3.5911771641,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0
+        },
+        {
+          "Name": "F",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 325.78,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Oral solution",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "Tablet (Dormicum)",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 0.0107481462,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Tablet 7.5 mg' on 2019-04-09 16:30"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 4.3802943225,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Tablet 7.5 mg' on 2019-04-09 16:30"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Macgilchrist1986_HI",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 0.075,
+          "Unit": "mg/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Pentikainen1989_HI_IV_7.5mg",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 7.5,
+          "Unit": "mg"
+        }
+      ]
+    },
+    {
+      "Name": "po 15 mg",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 15.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Macgilchrist1986_CPA",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPA|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Macgilchrist1986_CPA",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Macgilchrist1986_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Macgilchrist1986_CPA|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma-Midazolam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nMacgilchrist1986_CPA\n2023-06-07 11:07"
+        }
+      ]
+    },
+    {
+      "Name": "Macgilchrist1986_CPB",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPB|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPB|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Macgilchrist1986_CPB",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Macgilchrist1986_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Macgilchrist1986_CPB|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma-Midazolam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nMacgilchrist1986_CPB\n2023-06-07 11:09"
+        }
+      ]
+    },
+    {
+      "Name": "Macgilchrist1986_CPC",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Macgilchrist1986_CPC",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Macgilchrist1986_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Macgilchrist1986_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma-Midazolam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nMacgilchrist1986_CPC\n2023-06-07 11:10"
+        }
+      ]
+    },
+    {
+      "Name": "Macgilchrist1986_CPA_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "GABRG2|Reference concentration",
+          "Value": 1.04099689,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "GABRG2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "GABRG2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|Reference concentration",
+          "Value": 2.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPA_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPA_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Macgilchrist1986_CPA_Population",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Macgilchrist1986_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh A",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Macgilchrist 1986 - Hepatic Impairment",
+                "Path": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nMacgilchrist1986_CPA_Population\n2023-06-07 11:14"
+        }
+      ]
+    },
+    {
+      "Name": "Macgilchrist1986_CPB_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "GABRG2|Reference concentration",
+          "Value": 1.04099689,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "GABRG2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "GABRG2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|Reference concentration",
+          "Value": 2.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPB_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPB_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPB_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPB_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Macgilchrist1986_CPB_Population",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Macgilchrist1986_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh B",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Macgilchrist 1986 - Hepatic Impairment",
+                "Path": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nMacgilchrist1986_CPB_Population\n2023-06-07 11:19"
+        }
+      ]
+    },
+    {
+      "Name": "Macgilchrist1986_CPC_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "GABRG2|Reference concentration",
+          "Value": 1.04099689,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "GABRG2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "GABRG2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|Reference concentration",
+          "Value": 2.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Macgilchrist1986_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Macgilchrist1986_CPC_Population",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Macgilchrist1986_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh C",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Macgilchrist 1986 - Hepatic Impairment",
+                "Path": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nMacgilchrist1986_CPC_Population\n2023-06-07 11:22"
+        }
+      ]
+    },
+    {
+      "Name": "Pentikainen1989_IV_CPB",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Pentikainen1989_IV_CPB|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Pentikainen1989_CPB",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Pentikainen1989_HI_IV_7.5mg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Pentikainen1989_IV_CPB|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma-Midazolam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nPentikainen1989_IV_CPB\n2023-06-07 11:57"
+        }
+      ]
+    },
+    {
+      "Name": "Pentikainen1989_IV_CPC",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Pentikainen1989_IV_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Pentikainen1989_IV_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Pentikainen1989_CPC",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Pentikainen1989_HI_IV_7.5mg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Pentikainen1989_IV_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma-Midazolam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nPentikainen1989_IV_CPC\n2023-06-07 11:58"
+        }
+      ]
+    },
+    {
+      "Name": "Pentikainen1989_IV_CPB_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "GABRG2|Reference concentration",
+          "Value": 1.04099689,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "GABRG2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "GABRG2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|Reference concentration",
+          "Value": 2.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Pentikainen1989_IV_CPB_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Pentikainen1989_CPB_Population",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Pentikainen1989_HI_IV_7.5mg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh B",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Pentikainen 1989 - Hepatic Impairment",
+                "Path": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nPentikainen1989_IV_CPB_Population\n2023-06-07 12:01"
+        }
+      ]
+    },
+    {
+      "Name": "Pentikainen1989_IV_CPC_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "GABRG2|Reference concentration",
+          "Value": 1.04099689,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "GABRG2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "GABRG2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|Reference concentration",
+          "Value": 2.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Pentikainen1989_IV_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Pentikainen1989_CPC_Population",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Pentikainen1989_HI_IV_7.5mg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh C",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Pentikainen 1989 - Hepatic Impairment",
+                "Path": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nPentikainen1989_IV_CPC_Population\n2023-06-07 12:30"
+        }
+      ]
+    },
+    {
+      "Name": "Pentikanen1889_PO_CPB",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Pentikanen1889_PO_CPB|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Pentikainen1989_CPB",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "po 15 mg",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Pentikanen1889_PO_CPB|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma-Midazolam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam\nPentikanen1889_PO_CPB\n2023-06-07 14:30"
+        }
+      ]
+    },
+    {
+      "Name": "Pentikanen1889_PO_CPC",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Pentikanen1889_PO_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Pentikanen1889_PO_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Pentikainen1989_CPC",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "po 15 mg",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Pentikanen1889_PO_CPC|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma-Midazolam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam\nPentikanen1889_PO_CPC\n2023-06-07 14:32"
+        }
+      ]
+    },
+    {
+      "Name": "Pentikanen1889_PO_CPB_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "GABRG2|Reference concentration",
+          "Value": 1.04099689,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "GABRG2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "GABRG2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|Reference concentration",
+          "Value": 2.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Pentikanen1889_PO_CPB_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Pentikanen1889_PO_CPB_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Pentikainen1989_CPB_Population",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "po 15 mg",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191058265,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191064359,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191065843,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191067750,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191069406,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191070984,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191072515,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191074078,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191075656,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191077546,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191080156,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191085250,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191086921,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191088687,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191090312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191092765,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191094343,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191096875,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191098796,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191100421,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191102109,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191104453,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh B",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Pentikainen 1989 - Hepatic Impairment",
+                "Path": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam\nPentikanen1889_PO_CPB_Population\n2023-06-07 14:41"
+        }
+      ]
+    },
+    {
+      "Name": "Pentikanen1889_PO_CPC_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Edginton AN, Willmann S. Physiology-based simulations of a pathological condition: prediction of pharmacokinetics in patients with liver cirrhosis. Clin Pharmacokinet. 2008;47(11):743-52."
+          }
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "GABRG2|Reference concentration",
+          "Value": 1.04099689,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "GABRG2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "GABRG2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|Reference concentration",
+          "Value": 2.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Pentikanen1889_PO_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Pentikanen1889_PO_CPC_Population|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Pentikainen1989_CPC_Population",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "po 15 mg",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191058265,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191064359,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191065843,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191067750,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191069406,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191070984,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191072515,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191074078,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191075656,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191077546,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "Seed": 1191080156,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191085250,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191086921,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191088687,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191090312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191092765,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191094343,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191096875,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191098796,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191100421,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191102109,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "Seed": 1191104453,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0019242177595,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh C",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Pentikainen 1989 - Hepatic Impairment",
+                "Path": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam\nPentikanen1889_PO_CPC_Population\n2023-06-07 14:45"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Anderson2002_HI_Midazolam_15mg..Anderson2002.Midazolam.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Anderson2002",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Anderson2002_HI_Midazolam_15mg..Anderson2002.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 325.78
+          },
+          "Values": [
+            0.00498557976,
+            0.0162948929,
+            0.0281860214,
+            0.02801132,
+            0.0243422482,
+            0.01717917,
+            0.01333558
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Anderson2002_HI_Midazolam_15mg..Anderson2002.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.333,
+          0.666,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.5
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Macgilchrist1996",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 325.78
+              },
+              "Values": [
+                0.0227893144,
+                0.0140154231,
+                0.00285212975,
+                0.00506,
+                0.00444030156,
+                0.005596038,
+                0.00606072135,
+                0.003559078,
+                0.00131057529
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 325.78
+          },
+          "Values": [
+            189.2736,
+            87.685585,
+            42.1949768,
+            39.9800034,
+            32.428463,
+            22.7420464,
+            21.5832577,
+            13.2270908,
+            4.14062738
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Macgilchrist1986_HI_0.075mgkg_HI..Macgilchrist1996.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.0833300054,
+          0.416600019,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Pentikainen1989",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 325.78
+              },
+              "Values": [
+                0.0201698784,
+                0.0102038309,
+                0.008476788,
+                0.00630470645,
+                0.005827087,
+                0.004317439,
+                0.00531607028,
+                0.00389015931,
+                0.00473411242,
+                0.00323994621,
+                0.00246166647,
+                0.00228545349
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 325.78
+          },
+          "Values": [
+            155.767853,
+            97.19372,
+            76.24519,
+            66.82704,
+            53.15332,
+            36.7943535,
+            32.2343826,
+            23.9083748,
+            22.9208164,
+            14.58665,
+            10.0885983,
+            7.95105648
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Pentikainen1989_Midaz_IV_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.0833,
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          16.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Pentikainen1989",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 325.78
+              },
+              "Values": [
+                0.0399213731,
+                0.0233671423,
+                0.0189607665,
+                0.0224270783,
+                0.0130998371,
+                0.0171318147,
+                0.0134100243,
+                0.0101389531,
+                0.008616259,
+                0.00758412154,
+                0.00334061729
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 325.78
+          },
+          "Values": [
+            85.5607,
+            90.46733,
+            99.73955,
+            89.8528442,
+            54.8252678,
+            37.9293823,
+            28.5266743,
+            19.87366,
+            13.1026125,
+            10.352807,
+            5.35573053
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Pentikainen1989_Midaz_PO_HI..Pentikainen1989.Midazolam.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.247895584,
+          0.469572246,
+          0.8179807,
+          0.9754604,
+          2.01599026,
+          4.00588655,
+          5.96466064,
+          8.017839,
+          11.9995432,
+          16.0139484,
+          24.0416336
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Macgilchrist1986",
+      "Classifications": [
+        {
+          "Name": "Individual Simulations",
+          "Classifiables": [
+            "Macgilchrist1986_CPA",
+            "Macgilchrist1986_CPB",
+            "Macgilchrist1986_CPC"
+          ]
+        },
+        {
+          "Name": "Population Simulations",
+          "Classifiables": [
+            "Macgilchrist1986_CPA_Population",
+            "Macgilchrist1986_CPB_Population",
+            "Macgilchrist1986_CPC_Population"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Pentikainen1989",
+      "Classifications": [
+        {
+          "Name": "IV",
+          "Classifications": [
+            {
+              "Name": "Individual Simulations",
+              "Classifiables": [
+                "Pentikainen1989_IV_CPB",
+                "Pentikainen1989_IV_CPC"
+              ]
+            },
+            {
+              "Name": "Population Simulations",
+              "Classifiables": [
+                "Pentikainen1989_IV_CPB_Population",
+                "Pentikainen1989_IV_CPC_Population"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "PO",
+          "Classifications": [
+            {
+              "Name": "Individual Simulations",
+              "Classifiables": [
+                "Pentikanen1889_PO_CPB",
+                "Pentikanen1889_PO_CPC"
+              ]
+            },
+            {
+              "Name": "Population Simulations",
+              "Classifiables": [
+                "Pentikanen1889_PO_CPB_Population",
+                "Pentikanen1889_PO_CPC_Population"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

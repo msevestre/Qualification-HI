@@ -1,0 +1,1782 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "CPA",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 2340.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "CPC",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 0.18,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 2340.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPA",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "CPC",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 2340.0,
+          "Unit": "min"
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Orlando2003_CPA",
+      "Seed": 1198616468,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 55.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 82.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 172.0,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP1A2|Human|CPA",
+        "CYP3A4|Human|CPA"
+      ]
+    },
+    {
+      "Name": "Orlando2003_CPC",
+      "Seed": 1198666093,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 54.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 79.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 170.0,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 2.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP1A2|Human|CPC",
+        "CYP3A4|Human|CPC"
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Orlando2003_CPA_Population",
+      "Seed": 1198776750,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 48.0,
+          "Max": 62.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 72.0,
+          "Max": 92.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 166.0,
+          "Max": 178.0,
+          "Unit": "cm"
+        },
+        "BMI": {
+          "Min": 24.7,
+          "Max": 29.3,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Orlando2003_CPA",
+          "Seed": 1198616468,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 55.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 82.0,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 172.0,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 0.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP1A2|Human|CPA",
+            "CYP3A4|Human|CPA"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP1A2|Reference concentration",
+          "Seed": 1198781984,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.8,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2|t1/2 (liver)",
+          "Seed": 1198781984,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2340.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 1440.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1198781984,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1198782000,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1198782000,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Orlando2003_CPC_Population",
+      "Seed": 1198841437,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 45.0,
+          "Max": 63.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 71.0,
+          "Max": 87.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 163.0,
+          "Max": 177.0,
+          "Unit": "cm"
+        },
+        "BMI": {
+          "Min": 25.3,
+          "Max": 30.7,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Orlando2003_CPC",
+          "Seed": 1198666093,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 54.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 79.0,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 170.0,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 2.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP1A2|Human|CPC",
+            "CYP3A4|Human|CPC"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP1A2|Reference concentration",
+          "Seed": 1198846781,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.18,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2|t1/2 (liver)",
+          "Seed": 1198846781,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2340.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 1440.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1198846781,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.728,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1198846781,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2220.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1198846781,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1380.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Lidocaine",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Glycoprotein",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.41,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.3
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 4.1,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 8.01,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "Lit.",
+          "Species": "Human",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.16,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_MM",
+          "DataSource": "Lit.",
+          "Species": "Human",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "Vmax (liver tissue)",
+              "Value": 0.0,
+              "Unit": "µmol/min/kg tissue"
+            },
+            {
+              "Name": "Km",
+              "Value": 1.3,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 2.13,
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Berezhkovskiy",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 234.34,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "1 mg/kg i.v. SD",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1.0,
+          "Unit": "mg/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Orlando2003_CPA",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Lidocaine-Child-Pugh-A"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Lidocaine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Orlando2003_CPA",
+      "Compounds": [
+        {
+          "Name": "Lidocaine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Lit.",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-Lit.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "1 mg/kg i.v. SD"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Lidocaine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Orlando2003_CPA|Organism|PeripheralVenousBlood|Lidocaine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Lidocaine-Child-Pugh-A-Lidocaine-Measurement",
+              "X": "Lidocaine-Child-Pugh-A|Time",
+              "Y": "Lidocaine-Child-Pugh-A|ObservedData|||Lidocaine|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nOrlando2003_CPA\n2023-06-07 16:49"
+        }
+      ]
+    },
+    {
+      "Name": "Orlando2003_CPC",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Lidocaine-Child-Pugh-C"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Lidocaine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Orlando2003_CPC",
+      "Compounds": [
+        {
+          "Name": "Lidocaine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Lit.",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-Lit.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "1 mg/kg i.v. SD"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Lidocaine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Orlando2003_CPC|Organism|PeripheralVenousBlood|Lidocaine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Lidocaine-Child-Pugh-C-Lidocaine-Measurement",
+              "X": "Lidocaine-Child-Pugh-C|Time",
+              "Y": "Lidocaine-Child-Pugh-C|ObservedData|||Lidocaine|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nOrlando2003_CPC\n2023-06-07 16:50"
+        }
+      ]
+    },
+    {
+      "Name": "Orlando2003_CPA_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Lidocaine-Child-Pugh-A"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 2340.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Lidocaine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Orlando2003_CPA_Population",
+      "Compounds": [
+        {
+          "Name": "Lidocaine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Lit.",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-Lit.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "1 mg/kg i.v. SD"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh A",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Lidocaine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Lidocaine-Child-Pugh-A"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Orlando 2003 - Child Pugh A",
+                "Path": "Lidocaine-Child-Pugh-A|ObservedData|||Lidocaine|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nOrlando2003_CPA_Population\n2023-06-07 16:53"
+        }
+      ]
+    },
+    {
+      "Name": "Orlando2003_CPC_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Lidocaine-Child-Pugh-C"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 0.18,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 2340.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 1.728,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 2220.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Lidocaine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Orlando2003_CPC_Population",
+      "Compounds": [
+        {
+          "Name": "Lidocaine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Lit.",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-Lit.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "1 mg/kg i.v. SD"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh C",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Lidocaine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Lidocaine-Child-Pugh-C"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Orlando 2003 - Child Pugh C",
+                "Path": "Lidocaine-Child-Pugh-C|ObservedData|||Lidocaine|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nOrlando2003_CPC_Population\n2023-06-07 16:56"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Lidocaine-Child-Pugh-A",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "Lidocaine - ChildPughA",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Lidocaine",
+          "Type": "String"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Orlando2004",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1mg/kg",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Lidocaine-Child-Pugh-A|ObservedData|||Lidocaine|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 234.34
+              },
+              "Values": [
+                0.363473982,
+                0.251956016,
+                0.159385,
+                0.1549178,
+                0.0867687,
+                0.0606311,
+                0.0558476,
+                0.0353287,
+                0.032373298,
+                0.0250654,
+                0.02050649,
+                0.01377372,
+                0.0110392906,
+                0.00793666
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Lidocaine-Child-Pugh-A|ObservedData|||Lidocaine|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 234.34
+          },
+          "Values": [
+            2379.815,
+            1488.811,
+            1043.563,
+            763.3365,
+            512.7156,
+            396.9771,
+            330.0035,
+            231.3117,
+            174.0767,
+            134.7813,
+            93.13991,
+            62.55994,
+            43.23172,
+            29.03775
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Lidocaine-Child-Pugh-A|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.04851752,
+          0.1132075,
+          0.1778976,
+          0.2587601,
+          0.5175202,
+          0.743935347,
+          1.002695,
+          2.021563,
+          2.991914,
+          3.994609,
+          5.983828,
+          7.989218,
+          10.0107794,
+          11.9838295
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lidocaine-Child-Pugh-C",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "Lidocaine - ChildPughC",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Lidocaine",
+          "Type": "String"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Orlando2004",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1mg/kg",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Lidocaine-Child-Pugh-C|ObservedData|||Lidocaine|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 234.34
+              },
+              "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Lidocaine-Child-Pugh-C|ObservedData|||Lidocaine|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 234.34
+          },
+          "Values": [
+            1019.292,
+            708.9611,
+            608.460449,
+            493.112518,
+            423.2101,
+            377.3666,
+            356.342224,
+            305.8279,
+            257.5066,
+            238.557709,
+            204.7403,
+            169.1281,
+            147.9532,
+            119.9052
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Lidocaine-Child-Pugh-C|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.043478258,
+          0.06521739,
+          0.108695604,
+          0.239130408,
+          0.4565217,
+          0.717391253,
+          1.0,
+          2.0,
+          2.95652223,
+          3.978261,
+          5.978261,
+          8.021739,
+          9.978261,
+          12.02174
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Individual Simulations",
+      "Classifiables": [
+        "Orlando2003_CPA",
+        "Orlando2003_CPC"
+      ]
+    },
+    {
+      "Name": "Population Simulations",
+      "Classifiables": [
+        "Orlando2003_CPA_Population",
+        "Orlando2003_CPC_Population"
+      ]
+    }
+  ]
+}

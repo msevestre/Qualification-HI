@@ -1,0 +1,1478 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "CPB",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 0.18,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 2340.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "CPC",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 0.18,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 2340.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2E1",
+      "Category": "CPB",
+      "Parameters": [
+        {
+          "Path": "CYP2E1|Reference concentration",
+          "Value": 1.6268,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2E1|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2E1|t1/2 (liver)",
+          "Value": 3000.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.00069717257788
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0011140006271
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0004242055368
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2E1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2E1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.00063815267711
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2E1"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2E1",
+      "Category": "CPC",
+      "Parameters": [
+        {
+          "Path": "CYP2E1|Reference concentration",
+          "Value": 1.6268,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2E1|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2E1|t1/2 (liver)",
+          "Value": 3000.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.00069717257788
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0011140006271
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0004242055368
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2E1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2E1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.00063815267711
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2E1|Relative expression",
+          "Value": 0.0081152363563
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2E1"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 2.0
+          }
+        ]
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Froomes1981_CPB",
+      "Seed": 1176018140,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 47.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 72.33,
+          "Unit": "kg"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP1A2|Human|CPB",
+        "CYP2E1|Human|CPB"
+      ]
+    },
+    {
+      "Name": "Froomes1981_CPC",
+      "Seed": 1176065171,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 47.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 72.33,
+          "Unit": "kg"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 2.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP1A2|Human|CPC",
+        "CYP2E1|Human|CPC"
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Froomes1981_CPB_Population",
+      "Seed": 1176124109,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 40,
+        "Age": {
+          "Min": 42.0,
+          "Max": 64.0,
+          "Unit": "year(s)"
+        },
+        "BMI": {
+          "Min": 20.0,
+          "Max": 24.0,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Froomes1981_CPB",
+          "Seed": 1176018140,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 47.5,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 72.33,
+              "Unit": "kg"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 1.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP1A2|Human|CPB",
+            "CYP2E1|Human|CPB"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP1A2|Reference concentration",
+          "Seed": 1176133468,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.18,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2|t1/2 (liver)",
+          "Seed": 1176133515,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2340.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 1440.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2E1|Reference concentration",
+          "Seed": 1176133515,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.6268,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2E1|t1/2 (liver)",
+          "Seed": 1176133515,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 3000.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 1140.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Froomes1981_CPC_Population",
+      "Seed": 1176219515,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 40,
+        "Age": {
+          "Min": 42.0,
+          "Max": 64.0,
+          "Unit": "year(s)"
+        },
+        "BMI": {
+          "Min": 20.0,
+          "Max": 24.0,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Froomes1981_CPC",
+          "Seed": 1176065171,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 47.5,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 72.33,
+              "Unit": "kg"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 2.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP1A2|Human|CPC",
+            "CYP2E1|Human|CPC"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP1A2|Reference concentration",
+          "Seed": 1176228171,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.18,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2|t1/2 (liver)",
+          "Seed": 1176228187,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 2340.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 1440.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2E1|Reference concentration",
+          "Seed": 1176228187,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.6268,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2E1|t1/2 (liver)",
+          "Seed": 1176228187,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 3000.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 1140.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Theophylline",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Hansch 1995",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 0.4130705111,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_Fit"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.28,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_Fit"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 8.33,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Internet",
+                "Method": "InVitro",
+                "Description": "Sigma Aldrich"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Internet",
+                "Method": "InVitro",
+                "Description": "Sigma Aldrich"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "fitted",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 5.4546043641E-06,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_Fit"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 8.77,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Other",
+            "Description": "Merck Index"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 13.5,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Other",
+            "Description": "Merck Index"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 11.5,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Other",
+            "Description": "Merck Index"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Ha 1995",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 7.3167,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.23,
+              "Unit": "mmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 6.4808179194,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_Fit"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Ha 1995",
+          "Molecule": "CYP2E1",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 68.67,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 15.3,
+              "Unit": "mmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 103.4014862368,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_Fit"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.2228535918,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_Fit"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - PK-Sim Standard",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 180.17,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "drugbank"
+          }
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Froomes1999_HI",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 3.0,
+          "Unit": "mg/kg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 10.0,
+          "Unit": "min"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Froomes1981_CPB",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Froomes1981_CPB",
+      "Compounds": [
+        {
+          "Name": "Theophylline",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Ha 1995",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2E1-Ha 1995",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Froomes1999_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Theophylline-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Froomes1981_CPB|Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nFroomes1981_CPB\n2023-06-07 10:31"
+        }
+      ]
+    },
+    {
+      "Name": "Froomes1981_CPC",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Froomes1981_CPC",
+      "Compounds": [
+        {
+          "Name": "Theophylline",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Ha 1995",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2E1-Ha 1995",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Froomes1999_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Theophylline-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Froomes1981_CPC|Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nFroomes1981_CPC\n2023-06-07 10:34"
+        }
+      ]
+    },
+    {
+      "Name": "Froomes1981_CPB_Population",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 0.18,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 2340.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2E1|Reference concentration",
+          "Value": 1.6268,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2E1|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2E1|t1/2 (liver)",
+          "Value": 3000.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Froomes1981_CPB_Population",
+      "Compounds": [
+        {
+          "Name": "Theophylline",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Ha 1995",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2E1-Ha 1995",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Froomes1999_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Theophylline-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Min",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Max",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nFroomes1981_CPB_Population\n2023-06-07 10:36"
+        }
+      ]
+    },
+    {
+      "Name": "Froomes1981_CPC_Population",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 0.18,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 2340.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2E1|Reference concentration",
+          "Value": 1.6268,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2E1|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2E1|t1/2 (liver)",
+          "Value": 3000.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Froomes1981_CPC_Population",
+      "Compounds": [
+        {
+          "Name": "Theophylline",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Ha 1995",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2E1-Ha 1995",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Froomes1999_HI"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Theophylline-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Min",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Max",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nFroomes1981_CPC_Population\n2023-06-07 10:44"
+        }
+      ]
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Individual Simulations",
+      "Classifiables": [
+        "Froomes1981_CPB",
+        "Froomes1981_CPC"
+      ]
+    },
+    {
+      "Name": "Population Simulations",
+      "Classifiables": [
+        "Froomes1981_CPB_Population"
+      ]
+    }
+  ]
+}

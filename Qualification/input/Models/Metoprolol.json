@@ -1,0 +1,4951 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2D6",
+      "Category": "CPA",
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.304,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 3060.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2D6"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2D6",
+      "Category": "CPB",
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.132,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 3060.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2D6"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2D6",
+      "Category": "CPC",
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.044,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 3060.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "CYP2D6"
+      },
+      "Disease": {
+        "Name": "HI",
+        "Parameters": [
+          {
+            "Name": "Child-Pugh score",
+            "Value": 2.0
+          }
+        ]
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Regardh1981_CPA",
+      "Seed": 1109721843,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 57.7,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 71.05,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 171.83,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP2D6|Human|CPA"
+      ]
+    },
+    {
+      "Name": "Regardh1981_CPB",
+      "Seed": 1109766078,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 57.7,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 71.05,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 171.83,
+          "Unit": "cm"
+        },
+        "Disease": {
+          "Name": "HI",
+          "Parameters": [
+            {
+              "Name": "Child-Pugh score",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP2D6|Human|CPB"
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Regardh1981_CPA_Population",
+      "Seed": 1109889281,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 50.0,
+          "Max": 66.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 51.0,
+          "Max": 117.0,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Regardh1981_CPA",
+          "Seed": 1109721843,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 57.7,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 71.05,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 171.83,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 0.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP2D6|Human|CPA"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP2D6|Reference concentration",
+          "Seed": 1109893562,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.304,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|t1/2 (liver)",
+          "Seed": 1109893578,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 3060.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_CPB_Population",
+      "Seed": 1109948656,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 50.0,
+          "Max": 66.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 51.0,
+          "Max": 117.0,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Regardh1981_CPB",
+          "Seed": 1109766078,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 57.7,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 71.05,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 171.83,
+              "Unit": "cm"
+            },
+            "Disease": {
+              "Name": "HI",
+              "Parameters": [
+                {
+                  "Name": "Child-Pugh score",
+                  "Value": 1.0
+                }
+              ]
+            }
+          },
+          "ExpressionProfiles": [
+            "CYP2D6|Human|CPB"
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP2D6|Reference concentration",
+          "Seed": 1109953000,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.132,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|t1/2 (liver)",
+          "Seed": 1109953000,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 3060.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "min"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Metoprolol racemate",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "logP",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.77,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Zhao 2002"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "fu",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.88,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Benfield 1986"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "metoprolol tartrate",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 16900.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Avdeef 2001"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.7,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Avdeef 2003"
+          }
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 267.36,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "Pubchem"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "S-Metoprolol",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "logP",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.77,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Zhao 2002"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "fu",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.88,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Benfield 1986"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "metoprolol tartrate",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1000.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Avdeef 2001"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "metoprolol succinate",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 157.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Boldhane 2010"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 5.5,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Boldhane 2010"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.7,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Avdeef 2003"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Paper",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.88
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 1.970032857,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.08,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "NM, Mautz 1995 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.1037,
+              "Unit": "nmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 12.43,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 8.2074685935,
+              "Unit": "1/min"
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "NM, Mautz 1995 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0827,
+              "Unit": "nmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.75,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 6.5453968436,
+              "Unit": "1/min"
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.75,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 12.43,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0.5 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 12.43,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 2.2702082024,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 6' on 2020-09-11 14:49"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.25 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 12.43,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 7.8945927646,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 6' on 2020-09-11 14:46"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.5 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 12.43,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 8.8076966829,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 7' on 2020-09-12 18:17"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=2 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 12.43,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2020-07-16 17:43"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 14.0227063168,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 6' on 2020-09-11 14:33"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0.5 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.75,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 1.8161665619,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 6' on 2020-09-11 14:49"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.25 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.75,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 6.3022175194,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 6' on 2020-09-11 14:46"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.5 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.75,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 7.0307052469,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 7' on 2020-09-12 18:17"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=2 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.75,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2020-07-16 17:43"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 9.8096996338,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 6' on 2020-09-11 14:33"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=3 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.75,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 20.93,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=3 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 12.43,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 26.23,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 267.36,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Kim 2019"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "alpha-Hydroxymetoprolol",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "logP",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 0.8658570657,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Predicted",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.6251,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Watanabe 2018"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Predicted",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1430.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "HMDB"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "HMDB"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.67,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "HMDB"
+          }
+        },
+        {
+          "Type": "Acid",
+          "Pka": 13.55,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "HMDB"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "ASSUMPTION",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'hydroxymetoprolol_enzyme_fit' on 2020-01-29 09:59"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "ASSUMPTION",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.12
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 0.47,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.34,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1 log' on 2020-09-11 09:03"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 283.36,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "R-Metoprolol",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "logP",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.77,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Zhao 2002"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "fu",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.88,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Benfield 1986"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "metoprolol tartrate",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1000.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Avdeef 2001"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "metoprolol succinate",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 157.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Boldhane 2010"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 5.5,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Boldhane 2010"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.7,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Avdeef 2003"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "ASSUMPTION",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.88
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 1.970032857,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.09,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "NM, Mautz 1995 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.123,
+              "Unit": "nmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 8.82,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 9.8720570601,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "NM, Mautz 1995 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.075,
+              "Unit": "nmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.08,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 6.0195469879,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=2 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 8.82,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 16.6917426582,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=2 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.08,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 10.1731346705,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.25 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.08,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 5.7303081004,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.25 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 8.82,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 9.3972567283,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.5 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.08,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 6.3836485827,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.5 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 8.82,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 10.4784549353,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0.5 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 8.82,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 2.703131627,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0.5 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.08,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 1.6472208352,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "PM, AS=0 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 8.82,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "PM, AS=0 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "alpha-Hydroxymetoprolol",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.08,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=3 (sink)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 8.82,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 31.22,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=3 (α-Hydroxymetoprolol)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 10.08,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Mautz 1995"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 19.03,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 267.36,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Kim 2019"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "metoprolol tartrate (normal release, weibull)",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 12.3050523194,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 1 log' on 2020-09-11 09:02"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.7243897402,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 1 log' on 2020-09-11 09:02"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Regardh1981_IV_S-metoprolol",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 7.808,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 10.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "Rgardh1981_IV_R-metoprolol",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 7.808,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 10.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_PO_R-metoprolol",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 19.52,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_PO_S-metoprolol",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 19.52,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "ObserverSets": [
+    {
+      "Name": "Metoprolol racemate peripheral venous blood concentration",
+      "Observers": [
+        {
+          "Name": "Metoprolol racemate Observer",
+          "Dimension": "Concentration (molar)",
+          "ContainerCriteria": [
+            {
+              "Tag": "PeripheralVenousBlood",
+              "Type": "MatchTag"
+            }
+          ],
+          "Formula": {
+            "Name": "Racemate",
+            "Formula": "fQ_art*(C_pls_art+C_pls_art1)+fQ_bon*(C_pls_bon+C_pls_bon1)+fQ_fat*(C_pls_fat+C_pls_fat1)+fQ_mus*(C_pls_mus+C_pls_mus1)+fQ_skn*(C_pls_skn+C_pls_skn1)",
+            "References": [
+              {
+                "Alias": "C_pls_art",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|ArterialBlood|Plasma|R-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "C_pls_bon",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Bone|Plasma|R-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "C_pls_art1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|ArterialBlood|Plasma|S-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "C_pls_bon1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Bone|Plasma|S-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "C_pls_fat",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Fat|Plasma|R-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "C_pls_fat1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Fat|Plasma|S-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "C_pls_mus",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Muscle|Plasma|R-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "C_pls_mus1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Muscle|Plasma|S-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "C_pls_skn",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Skin|Plasma|R-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "C_pls_skn1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Skin|Plasma|S-Metoprolol|Concentration"
+              },
+              {
+                "Alias": "fQ_art",
+                "Dimension": "Fraction",
+                "Path": "Organism|ArterialBlood|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_bon",
+                "Dimension": "Fraction",
+                "Path": "Organism|Bone|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_fat",
+                "Dimension": "Fraction",
+                "Path": "Organism|Fat|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_mus",
+                "Dimension": "Fraction",
+                "Path": "Organism|Muscle|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_skn",
+                "Dimension": "Fraction",
+                "Path": "Organism|Skin|Peripheral blood flow fraction"
+              }
+            ],
+            "Dimension": "Concentration (molar)"
+          },
+          "MoleculeList": {
+            "ForAll": false,
+            "MoleculeNamesToInclude": [
+              "Metoprolol racemate"
+            ]
+          },
+          "Type": "Container"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Regardh1981_CPA_IV",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Metoprolol racemate|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "R-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "S-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer"
+      ],
+      "Individual": "Regardh1981_CPA",
+      "Compounds": [
+        {
+          "Name": "Metoprolol racemate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-ASSUMPTION",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rgardh1981_IV_R-metoprolol"
+          }
+        },
+        {
+          "Name": "S-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Paper",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_IV_S-metoprolol"
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Metoprolol racemate peripheral venous blood concentration"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "nmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metoprolol racemate-Peripheral Venous Blood-Metoprolol racemate Observer-Concentration",
+              "X": "Time",
+              "Y": "Regardh1981_CPA_IV|Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma-Metoprolol racemate-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nRegardh1981_CPA_PO\n2023-06-06 16:19"
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_CPB_IV",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Metoprolol racemate|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "R-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "S-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer"
+      ],
+      "Individual": "Regardh1981_CPB",
+      "Compounds": [
+        {
+          "Name": "Metoprolol racemate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-ASSUMPTION",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rgardh1981_IV_R-metoprolol"
+          }
+        },
+        {
+          "Name": "S-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Paper",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_IV_S-metoprolol"
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Metoprolol racemate peripheral venous blood concentration"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "nmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metoprolol racemate-Peripheral Venous Blood-Metoprolol racemate Observer-Concentration",
+              "X": "Time",
+              "Y": "Regardh1981_CPB_IV|Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma-Metoprolol racemate-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nRegardh1981_CPB_IV\n2023-06-06 16:21"
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_CPA_IV_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.304,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 3060.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Metoprolol racemate|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "R-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "S-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer"
+      ],
+      "Population": "Regardh1981_CPA_Population",
+      "Compounds": [
+        {
+          "Name": "Metoprolol racemate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-ASSUMPTION",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rgardh1981_IV_R-metoprolol"
+          }
+        },
+        {
+          "Name": "S-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Paper",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_IV_S-metoprolol"
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Metoprolol racemate peripheral venous blood concentration"
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "nmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              },
+              {
+                "Name": "Metoprolol racemate-Peripheral Venous Blood-Plasma-Concentration|AUC_inf",
+                "Dimension": "AUC (molar)",
+                "Scaling": "Linear",
+                "Unit": "nmol*h/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "PKParameter": "AUC_inf",
+                "Area": "FilterArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Regardh 1981 - Hepatic Impairment",
+                "Path": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Undefined\nRegardh1981_CPA_IV_Population\n2023-06-06 16:30"
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_CPB_IV_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.132,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 3060.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Metoprolol racemate|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "R-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "S-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer"
+      ],
+      "Population": "Regardh1981_CPB_Population",
+      "Compounds": [
+        {
+          "Name": "Metoprolol racemate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-ASSUMPTION",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rgardh1981_IV_R-metoprolol"
+          }
+        },
+        {
+          "Name": "S-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Paper",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_IV_S-metoprolol"
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Metoprolol racemate peripheral venous blood concentration"
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "nmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              },
+              {
+                "Name": "Metoprolol racemate-Peripheral Venous Blood-Plasma-Concentration|AUC_inf",
+                "Dimension": "AUC (molar)",
+                "Scaling": "Linear",
+                "Unit": "nmol*h/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "PKParameter": "AUC_inf",
+                "Area": "FilterArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Regardh 1981 - Hepatic Impairment",
+                "Path": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Metoprolol\nRegardh1981_CPB_IV_Population\n2023-06-06 16:43"
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_CPA_PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Metoprolol racemate|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "R-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "S-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Regardh1981_CPA_PO|Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Regardh1981_CPA",
+      "Compounds": [
+        {
+          "Name": "Metoprolol racemate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-ASSUMPTION",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_PO_R-metoprolol",
+            "Formulations": [
+              {
+                "Name": "metoprolol tartrate (normal release, weibull)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "S-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Paper",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_PO_S-metoprolol",
+            "Formulations": [
+              {
+                "Name": "metoprolol tartrate (normal release, weibull)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Metoprolol racemate peripheral venous blood concentration"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "nmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metoprolol racemate-Peripheral Venous Blood-Metoprolol racemate Observer-Concentration",
+              "X": "Time",
+              "Y": "Regardh1981_CPA_PO|Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma-Metoprolol racemate-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Metoprolol\nRegardh1981_CPA_PO\n2023-06-06 16:51"
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_CPB_PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Metoprolol racemate|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "R-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "S-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Regardh1981_CPB_PO|Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Regardh1981_CPB_PO|Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Individual": "Regardh1981_CPB",
+      "Compounds": [
+        {
+          "Name": "Metoprolol racemate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-ASSUMPTION",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_PO_R-metoprolol",
+            "Formulations": [
+              {
+                "Name": "metoprolol tartrate (normal release, weibull)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "S-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Paper",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_PO_S-metoprolol",
+            "Formulations": [
+              {
+                "Name": "metoprolol tartrate (normal release, weibull)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Metoprolol racemate peripheral venous blood concentration"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "nmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metoprolol racemate-Peripheral Venous Blood-Metoprolol racemate Observer-Concentration",
+              "X": "Time",
+              "Y": "Regardh1981_CPB_PO|Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma-Metoprolol racemate-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|Time",
+              "Y": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Metoprolol\nRegardh1981_CPB_PO\n2023-06-06 16:53"
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_CPA_PO_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.304,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 3060.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Metoprolol racemate|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "R-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "S-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Regardh1981_CPA_PO_Population|Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Regardh1981_CPA_Population",
+      "Compounds": [
+        {
+          "Name": "Metoprolol racemate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-ASSUMPTION",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_PO_R-metoprolol",
+            "Formulations": [
+              {
+                "Name": "metoprolol tartrate (normal release, weibull)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "S-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Paper",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_PO_S-metoprolol",
+            "Formulations": [
+              {
+                "Name": "metoprolol tartrate (normal release, weibull)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Metoprolol racemate peripheral venous blood concentration"
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Metoprolol racemate|Intestinal permeability (transcellular)",
+          "Seed": 1112999671,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol|Intestinal permeability (transcellular)",
+          "Seed": 1113000312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "S-Metoprolol|Intestinal permeability (transcellular)",
+          "Seed": 1113000796,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh A",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "nmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Hepatic Impairment",
+                "Path": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Metoprolol\nRegardh1981_CPA_PO_Population\n2023-06-06 16:57"
+        }
+      ]
+    },
+    {
+      "Name": "Regardh1981_CPB_PO_Population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.132,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 3060.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Metoprolol racemate|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "R-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "S-Metoprolol|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Regardh1981_CPB_PO_Population|Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Regardh1981_CPB_PO_Population|Organism|PeripheralVenousBlood|Metoprolol racemate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+        }
+      ],
+      "Population": "Regardh1981_CPB_Population",
+      "Compounds": [
+        {
+          "Name": "Metoprolol racemate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-ASSUMPTION",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_PO_R-metoprolol",
+            "Formulations": [
+              {
+                "Name": "metoprolol tartrate (normal release, weibull)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "S-Metoprolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "metoprolol tartrate",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-NM, Mautz 1995 (sink)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Paper",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Regardh1981_PO_S-metoprolol",
+            "Formulations": [
+              {
+                "Name": "metoprolol tartrate (normal release, weibull)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Metoprolol racemate peripheral venous blood concentration"
+        }
+      ],
+      "AdvancedParameters": [
+        {
+          "Name": "Metoprolol racemate|Intestinal permeability (transcellular)",
+          "Seed": 1112999671,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "R-Metoprolol|Intestinal permeability (transcellular)",
+          "Seed": 1113000312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "S-Metoprolol|Intestinal permeability (transcellular)",
+          "Seed": 1113000796,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 4.1375817791E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Hepatic Impairment - Child Pugh B",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "nmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Hepatic Impairment",
+                "Path": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 1000,
+            "ChartHeight": 800,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#00000000",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Metoprolol\nRegardh1981_CPB_PO_Population\n2023-06-06 17:04"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Regardh1981",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Metoprolol racemate",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 267.36
+              },
+              "Values": [
+                0.0311649125,
+                0.02773058,
+                0.028009899,
+                0.0289816055,
+                0.0259611327,
+                0.0301163383,
+                0.0296789464,
+                0.0341199,
+                0.01013,
+                0.01
+              ],
+              "Dimension": "Concentration (molar)",
+              "Unit": "µmol/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 267.36
+          },
+          "Values": [
+            204.0454,
+            184.3718,
+            155.177521,
+            148.235825,
+            142.312042,
+            116.674324,
+            95.65973,
+            81.26113,
+            19.09,
+            16.5
+          ],
+          "Dimension": "Concentration (molar)",
+          "Unit": "nmol/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Regardh1981_IV_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.18444398,
+          0.4758953,
+          1.01044607,
+          1.363887,
+          1.83954763,
+          3.875954,
+          5.839079,
+          7.74172163,
+          24.0,
+          25.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Study Id",
+          "Value": "Regardh1981",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Metoprolol racemate",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 267.36
+              },
+              "Values": [
+                0.0990164354,
+                0.15454495,
+                0.157836646,
+                0.126126215,
+                0.120576888,
+                0.122520007,
+                0.119001083,
+                0.103195652,
+                0.04972,
+                0.04057
+              ],
+              "Dimension": "Concentration (molar)",
+              "Unit": "µmol/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Metoprolol racemate|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 267.36
+          },
+          "Values": [
+            127.871307,
+            342.815063,
+            397.459045,
+            368.749817,
+            367.489777,
+            342.445984,
+            299.771454,
+            241.469559,
+            60.41,
+            53.93
+          ],
+          "Dimension": "Concentration (molar)",
+          "Unit": "nmol/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Regardh1981_PO_HI..Regardh1981.Metoprolol racemate.Human.Peripheral Venous Blood.Plasma|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.38166973,
+          0.5996719,
+          1.009377,
+          1.83328116,
+          2.583701,
+          3.576992,
+          5.224596,
+          7.90195274,
+          24.0,
+          25.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "IV",
+      "Classifications": [
+        {
+          "Name": "Individual Simulations",
+          "Classifiables": [
+            "Regardh1981_CPA_IV",
+            "Regardh1981_CPB_IV"
+          ]
+        },
+        {
+          "Name": "Population Simulations",
+          "Classifiables": [
+            "Regardh1981_CPA_IV_Population",
+            "Regardh1981_CPB_IV_Population"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "PO",
+      "Classifications": [
+        {
+          "Name": "Individual Simulations",
+          "Classifiables": [
+            "Regardh1981_CPA_PO",
+            "Regardh1981_CPB_PO"
+          ]
+        },
+        {
+          "Name": "Population Simulations",
+          "Classifiables": [
+            "Regardh1981_CPA_PO_Population",
+            "Regardh1981_CPB_PO_Population"
+          ]
+        }
+      ]
+    }
+  ]
+}

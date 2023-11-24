@@ -140,9 +140,9 @@ createQualificationReport <- function(qualificationRunnerFolder,
   }
   
   #' Activate/Deactivate tasks of qualification workflow prior running
-  workflow$inactivateTasks("simulate")
-  workflow$inactivateTasks("calculatePKParameters")
-  workflow$inactivateTasks("plotTimeProfiles")
+  # workflow$inactivateTasks("simulate")
+  # workflow$inactivateTasks("calculatePKParameters")
+  # workflow$inactivateTasks("plotTimeProfiles")
   # workflow$inactivateTasks("plotComparisonTimeProfile")
   # workflow$inactivateTasks("plotGOFMerged")
   # workflow$inactivateTasks("plotPKRatio")
